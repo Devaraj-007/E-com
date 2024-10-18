@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.hot{
+    background-color: orangered;
+    color: white;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    border-radius: 2px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 10;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-cart-plus {
+    margin-right: 10px;
+  }
+
+.fa-home{
+    margin-right: 5px;
+  }
+.fa-user{
+    margin-right: 5px;
+}
+.fa-sign-in{
+    margin-right: 5px;
+}
+
+.fa-cubes{
+    margin-right: 5px;
+}
+
+.fa-shopping-cart{
+    margin-right: 5px;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.old_price{
+    font-weight: bold;
+    color: red;
+}
+
+.new_price{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
